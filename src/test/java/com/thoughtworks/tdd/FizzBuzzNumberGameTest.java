@@ -74,7 +74,7 @@ public class FizzBuzzNumberGameTest {
 		// When
 		String word = fizzBuzzNumberGame.fizzBuzz(expected);
 		// Then
-		Assertions.assertEquals("FizzBuzz", word);
+		Assertions.assertEquals("FizzWhizz", word);
 	}
 
 	@Test
@@ -86,7 +86,7 @@ public class FizzBuzzNumberGameTest {
 		// When
 		String word = fizzBuzzNumberGame.fizzBuzz(expected);
 		// Then
-		Assertions.assertEquals("FizzBuzz", word);
+		Assertions.assertEquals("BuzzWhizz", word);
 	}
 
 	@Test
